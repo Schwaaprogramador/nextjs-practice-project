@@ -1,9 +1,8 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styled from "./page.module.css"
 
 export default function Home() {
   return (
-    <div>
+    <div className={styled.container}>
       <div>Iniciar Sesion</div>
       <div>Crear Cuenta</div>
     </div>
