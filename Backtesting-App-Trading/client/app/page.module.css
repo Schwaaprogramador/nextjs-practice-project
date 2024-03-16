@@ -3,4 +3,41 @@
   color: aliceblue;
   margin: 0px;
   padding: 0px;
+
+  height: 100vh;
+  display: flex;
+
+}
+
+.img {
+  width: 50vw;
+  height: 100vh;
+  
+  
+}
+
+.seccion_dos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+    
+  width: 50vw;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(50deg, #ff4b1f 0%, #2b1a3d 100%);  
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 15px;
+  color: aliceblue;
+  font-size: x-large;
+  padding: 1rem;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: #2b1a3d;
 }
