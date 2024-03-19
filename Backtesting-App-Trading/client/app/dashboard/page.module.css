@@ -9,9 +9,9 @@
 }
 
 .cajitaContainer {
-    background: linear-gradient(142deg, rgb(0, 0, 0) 0%, rgba(31, 102, 10) 100%);
-    width: 300px;
-    height: 150px;
+    background: #000000be;
+    width: 200px;
+    height: 100px;
     border-radius: 12%;
 
     display: flex;
@@ -20,7 +20,5 @@
     justify-content: center;
     gap: 1rem;
 
-    -webkit-box-shadow: 21px 23px 22px 0px rgba(0,0,0,1);
--moz-box-shadow: 21px 23px 22px 0px rgba(0,0,0,1);
-box-shadow: 21px 23px 22px 0px rgba(0,0,0,1);
+    box-shadow: 1px 23px 22px 0px rgba(0, 0, 0, 0.616);
 }
