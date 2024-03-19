@@ -1,13 +1,13 @@
 .container {
     height: 100vh;
-    background-color: #1b1a3d;
+    background-color: black;
     color:aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
     padding: 2rem;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .link {

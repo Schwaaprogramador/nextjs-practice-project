@@ -16,7 +16,7 @@ export default function Home() {
       <div className={styled.seccion_dos}>
         <button className={styled.button}>Iniciar Sesion</button>
         <button className={styled.button}>Crear Cuenta</button>
-        <Link href="/dashboard"> Entrar </Link>
+        <Link href="/dashboard" className={styled.button}> Entrar </Link>
       </div>
     </div>
   );

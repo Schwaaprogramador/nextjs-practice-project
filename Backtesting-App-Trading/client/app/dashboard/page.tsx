@@ -4,23 +4,35 @@ const page = () => {
   return (
     <div className={styles.container}>
       
-      <div>
+      <div className={styles.cajitaContainer}>
         <p>
-          Total: 1000k
+          Total
+        </p>
+        <p>
+          1000k
         </p>
       </div>
 
-      <div>
+      <div className={styles.cajitaContainer}>
         <p>
-          Win Rate: 80%
+          Win Rate
+        </p>
+        <p>
+          80%
         </p>
       </div>
 
-      <div>
+      <div className={styles.cajitaContainer}>
         <p>
-          Total: 1000k
+          Total Operaciones
+        </p>
+
+        <p>
+          50
         </p>
       </div>
+
+      
     </div>
   )
 }
