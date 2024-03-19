@@ -1,9 +1,15 @@
 import React from 'react'
+import styles from "./page.module.css"
+import Link from 'next/link'
 
 const page = () => {
   return (
-    <div>new account</div>
-  )
+    <div className={styles.container}>
+        newlogin 
+        <Link href="/" className={styles.link}>Salir</Link>   
+    </div>
+)
+  
 }
 
 export default page
