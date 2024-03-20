@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { montserrat } from "./ui/fonts";
+import { buda } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Toro's Backtesting App",
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({  children,}: Readonly<{  children: React.ReactNode;}>) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={buda.className}>
         {children}
       </body>
     </html>
