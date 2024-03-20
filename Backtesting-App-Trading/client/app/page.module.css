@@ -3,46 +3,48 @@
   color: aliceblue;
   margin: 0px;
   padding: 0px;
-
   height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.img {
-  height: 100vh;
+.centralContainer {
+  
+  
+  display: flex;
+
 }
 
 .seccion_uno {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50vw;
-
+  border-radius: 2rem;
+  width: 25rem;
+  height: 30rem;
   background-image: url("../public/image2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
-
 }
 
 .seccion_dos {
+  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-    
-  width: 50vw;
+  height: 30rem;
+  width: 25rem;
   background: rgb(199,96,36);
-background: linear-gradient(0deg, rgba(199,96,36,1) 73%, rgba(16, 99, 214, 0.808) 100%);
+  background: linear-gradient(0deg, rgba(199,96,36,1) 73%, rgba(10, 59, 128, 0.808) 100%);
 }
 
 .enlaces {
   display: flex;
   gap: 1rem;
 }
+
 .inputsContainer {
   display: flex;
   flex-direction: column;
@@ -53,13 +55,14 @@ background: linear-gradient(0deg, rgba(199,96,36,1) 73%, rgba(16, 99, 214, 0.808
 .input {
   padding: 1rem
 }
+
 .button {
   background-color: transparent;
   border: 1px solid aliceblue;
   border-radius: 15px;
   color: aliceblue;
   font-size:large;
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
 }
 
